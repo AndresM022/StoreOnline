@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ {% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+    {% block title %}
+    {% endblock %}
+</head>
+<body>
+    {% block header %}
+    <header style=" width: 100%;
+    height: 100vh;
+    background-image: url('/static/img/fondo.png');
+    background-size: cover;
+    background-position: center;">
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Camisas</a></li>
+                <li><a href="#">Cursos</a></li>
+            </ul>
+            <div class="logo"><a href="#"><img src="/static/img/logo.png"></a></div>
+        </nav>
+    </header>
+    <div class = "scrol">
+
+    </div>
+    {% endblock %}
+
+    {% block footer %}
+        {% include 'footer.html' %}
+    {% endblock %}
+    {% block JS %}
+    <script src="{% static 'js/navbar.js' %}"></script>
+    {% endblock %}
+</body>
+</html>
