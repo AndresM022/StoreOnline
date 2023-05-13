@@ -11,11 +11,10 @@
 }
 
 .pie-pagina .grupo-1{
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 30px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .pie-pagina .grupo-1 .box figure{
@@ -53,9 +52,9 @@
 
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     color: #fff;
     background-color: #0d2033;
     display: inline-block;
@@ -74,3 +73,4 @@
     text-align: center;
     color: #ffffff;
 }
+

@@ -33,13 +33,13 @@ body{
 }
 
 .logo img {
-    top:auto;
+    filter: brightness(1);
     width: 200px;
 }
 
 
 .nav.active {
-    background: rgb(231,247,253);
+    background: rgba(56, 118, 144, 0.87);
     padding: 5px;
 }
 

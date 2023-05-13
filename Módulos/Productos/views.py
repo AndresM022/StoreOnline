@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 class MainView(TemplateView):
-    template_name = "navbar.html"
+    template_name = "header.html"
 
 class FooterView(TemplateView):
     template_name = 'footer.html'
