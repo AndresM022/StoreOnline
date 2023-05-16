@@ -21,6 +21,6 @@ from Módulos.Productos.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',MainView.as_view(),name='home'),
-    path('pie/',FooterView.as_view(),name='pie'),
 ]
+
 
