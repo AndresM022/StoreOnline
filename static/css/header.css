@@ -4,39 +4,27 @@
 
 /* Menú */
 /* Estilos generales */
-body {
-  margin: 0;
-  padding: 0;
-  transition: transform 0.3s ease;
-}
+
 
 .ho .ve .r{
   font-family: "Montserrat",sans-serif;
   font-weight: 500;
-  transition: all 500ms ease;
-  padding: 10px;
+  transition: all .5s ease;
+  padding: 5px;
 }
 
 .ho .ve .r:hover{
   color: #000;
-  background: #bcb2b2;
-  border-radius: 25px;
+  background: rgba(56, 118, 144, 0.87);
+  border-radius: 15px;
 }
 
 .navbar-nav .nav-item{
   padding: 0 20px;
+   text-align: center;
 
 }
-.ho .nav-item .nav-link{
-  position: relative;
-  font-size: 16px;
-  text-align: center;
-  display: inline-block;
-}
 
-.nav-item {
-  text-align: center;
-}
 
 .ho {
   background-color: #283a4b;

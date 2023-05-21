@@ -8,19 +8,25 @@
 
 h2{
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 	color: cadetblue;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
+span {
+	display: block;
+	text-align: center;
+	color: cadetblue;
+	font-size: 1.1rem;
+}
 .all-products{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .product{
-	overflow: hidden;
 	background: #bcb2b2;
 	color: #21201e;
 	text-align: center;
@@ -41,7 +47,7 @@ h2{
 }
 
 .product:hover img{
-	scale:  1.1;
+	transform:  scale(1.1);
 }
 
 
@@ -72,8 +78,16 @@ h2{
 }
 
 @media screen and (min-width:768px) {
+
+	h2{
+	text-align: center;
+	color: cadetblue;
+	font-size: 2rem;
+	}
+
 	.products {
 		position: relative;
-		padding-bottom: 30px;
+		top: 30px;
+		padding-bottom: 50px;
 	}
 }
