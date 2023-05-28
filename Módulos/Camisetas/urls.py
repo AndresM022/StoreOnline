@@ -21,9 +21,7 @@ from Módulos.Camisetas.views import *
 
 app_name = "camiseta"
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',MainView.as_view(),name='home'),
-    path('camiseta/',CamisetaView.as_view(),name="camiseta")
+    path('camiseta/',CamisetaView.as_view(),name="camiset")
 ]
 
 

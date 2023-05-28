@@ -21,7 +21,6 @@ from Módulos.Accesorios.views import *
 
 app_name = 'accesorio'
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('accesorio/',AccesorioView.as_view(),name="acc"),
 ]
 

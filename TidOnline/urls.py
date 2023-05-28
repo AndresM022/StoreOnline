@@ -16,12 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from TidOnline.views import MainView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accesorios/',include("Módulos.Accesorios.urls"),name="acce"),
-    path('',include("Módulos.Camisetas.urls"),name="cami"),
+    path('',MainView.as_view(),name='home'),
+    path('accesorios/',include("Módulos.Accesorios.urls"),name="accesorio"),
+    path('camisetas/',include("Módulos.Camisetas.urls"),name="camiseta"),
+    path('inicio_sesion/',include("Módulos.Login_Regist.urls"),name='inic_ses')
 ]
 
 
