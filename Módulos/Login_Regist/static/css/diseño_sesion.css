@@ -14,13 +14,13 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #434754;
+    background: #696979;
 }
 
 .container
 {
     padding: 40px;
-    border: 8px solid #3b4651;
+    border: 8px solid #30424f;
     border-radius: 20px;
     box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
     5px 5px 15px rgba(0,0,0,0.35),
@@ -54,7 +54,7 @@ body
 {
     padding: 12px 10px 12px 48px;
     width: 100%;
-    background: #223243;
+    background: #3a485b;
     border: 1px solid rgba(0,0,0,0.1);
     color: #fff;
     font-weight: 300;
